@@ -2,7 +2,7 @@
   src="https://svg-banners.vercel.app/api?type=rainbow&text1=sitiom%20&width=800&height=400"
   alt="Who am I?"
 />
-<div style="text-align: center">
+<p align="center">
   <img
     src="https://visitor-badge.laobi.icu/badge?page_id=sitiom.sitiom"
     alt="Counter"
@@ -10,9 +10,9 @@
   <a href="https://keybase.io/sitiom" alt="PGP Fingerprint">
     <img src="https://badgen.net/keybase/pgp/sitiom" />
   </a>
-</div>
+</p>
 <br>
-<div style="text-align: center">
+<p align="center">
   <a
     href="https://github.com/sitiom?tab=repositories"
     alt="sitiom's github stats"
@@ -29,4 +29,4 @@
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=sitiom&theme=nord&hide=css,ruby,html&layout=compact"
     />
   </a>
-</div>
+</p>
