@@ -12,4 +12,10 @@
   </a>
 </p>
 
-![Metrics](https://github.com/sitiom/sitiom/blob/main/github-metrics.svg)
+<p align="center">
+  <a href="https://github.com/sitiom" alt="Metrics">
+    <img
+      src="https://github.com/sitiom/sitiom/blob/main/github-metrics.svg"
+    />
+  </a>
+</p>
