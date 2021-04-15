@@ -11,22 +11,5 @@
     <img src="https://badgen.net/keybase/pgp/sitiom" />
   </a>
 </p>
-<br>
-<p align="center">
-  <a
-    href="https://github.com/sitiom?tab=repositories"
-    alt="sitiom's github stats"
-  >
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=sitiom&show_icons=true&theme=nord&count_private=true"
-    />
-  </a>
-  <a
-    href="https://github.com/sitiom?tab=repositories"
-    alt="sitiom's Top Languages"
-  >
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=sitiom&theme=nord&hide=css,ruby,html&layout=compact"
-    />
-  </a>
-</p>
+
+![Metrics](https://github.com/sitiom/sitiom/blob/main/github-metrics.svg)
