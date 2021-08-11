@@ -1,23 +1,11 @@
-<p align="center">
-  <a href="https://github.com/sitiom" alt="Banner">
-    <img src="https://svg-banners.vercel.app/api?type=rainbow&text1=sitiom%20&width=800&height=400" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://keybase.io/sitiom">
-    <img
-      src="https://visitor-badge.laobi.icu/badge?page_id=sitiom.sitiom"
-      alt="Counter"
-    />
-    <img
-      src="https://badgen.net/keybase/pgp/sitiom"
-      alt="PGP Fingerprint"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/sitiom" alt="Metrics">
-    <img src="https://github.com/sitiom/sitiom/blob/main/github-metrics.svg" />
-  </a>
-</p>
+<div align="center">
+  
+  [![Banner](https://svg-banners.vercel.app/api?type=rainbow&text1=sitiom%20&width=800&height=400)](https://github.com/sitiom)
+  
+  [![Keyoxide:A31DFEFDEFB80B347319A78CEB390080129A0E48](https://img.shields.io/badge/Keyoxide-A31DFEFDEFB80B347319A78CEB390080129A0E48-blue?logo=keybase)](https://keyoxide.org/A31DFEFDEFB80B347319A78CEB390080129A0E48)
+  
+  [![Counter](https://visitor-badge.laobi.icu/badge?page_id=sitiom.sitiom)](https://github.com/sitiom)
+  ![GitHub User's stars](https://img.shields.io/github/stars/sitiom?affiliations=OWNER%2CCOLLABORATOR&label=GH%20stars)
+  
+  [![Metrics](github-metrics.svg)](https://github.com/sitiom)
+</div>
