@@ -30,3 +30,27 @@ jobs:
           plugin_habits_days: 30
           plugin_habits_facts: yes
           config_timezone: Asia/Manila
+
+  github-contributions-snake:
+    runs-on: ubuntu-latest
+    needs: github-metrics
+    
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: assets
+      - uses: fregante/setup-git-user@v1
+
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: sitiom
+          gif_out_path: github-contribution-grid-snake.gif
+          svg_out_path: github-contribution-grid-snake.svg
+          
+      - name: Commit, Pull, and Push
+        run : |
+          git add .
+          git reset --soft HEAD~2
+          git commit -m "Update assets - [Skip GitHub Action]"
+          git push -f
