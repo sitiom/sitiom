@@ -50,6 +50,6 @@ jobs:
       - name: Squash and Commit
         run: |
           git add .
-          git reset --soft HEAD~2
+          git reset --soft HEAD~
           git commit -m "chore: update assets [skip ci]"
           git push -f
