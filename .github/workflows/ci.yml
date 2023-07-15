@@ -42,10 +42,10 @@ jobs:
           fetch-depth: 0
       - uses: fregante/setup-git-user@v2
 
-      - uses: Platane/snk@v2
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: github-snake.svg?palette=github-dark
+#       - uses: Platane/snk@v2
+#         with:
+#           github_user_name: ${{ github.repository_owner }}
+#           outputs: github-snake.svg?palette=github-dark
 
       - name: Squash and Commit
         run: |
