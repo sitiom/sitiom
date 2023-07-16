@@ -42,14 +42,14 @@ jobs:
           fetch-depth: 0
       - uses: fregante/setup-git-user@v2
 
-#       - uses: Platane/snk@v2
-#         with:
-#           github_user_name: ${{ github.repository_owner }}
-#           outputs: github-snake.svg?palette=github-dark
+      - uses: aelassas/snk/svg-only@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: github-snake.svg?palette=github-dark
 
       - name: Squash and Commit
         run: |
           git add .
-          git reset --soft HEAD~
+          git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
           git push -f
