@@ -42,10 +42,12 @@ jobs:
           fetch-depth: 0
       - uses: fregante/setup-git-user@v2
 
-      - uses: aelassas/snk/svg-only@main
+      - uses: Platane/snk/svg-only@main
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: github-snake.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
       - name: Squash and Commit
         run: |
