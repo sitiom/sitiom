@@ -42,14 +42,18 @@ jobs:
           fetch-depth: 0
       - uses: fregante/setup-git-user@v2
 
-      - uses: Platane/snk/svg-only@main
+      - name: Generate SVG
+        uses: cyprieng/github-breakout@v1.0.0
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: github-snake.svg?palette=github-dark
+          github_username: ${{ github.repository_owner }}
+
+      - name: Move generated SVGs
+        run: |
+          mv output/dark.svg github-breakout.svg
 
       - name: Squash and Commit
         run: |
-          git add .
+          git add github-breakout.svg
           git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
           git push -f
