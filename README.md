@@ -9,7 +9,7 @@
 [![Counter](https://visitor-badge.laobi.icu/badge?page_id=sitiom.sitiom)](https://github.com/sitiom)
 ![GitHub User's stars](https://img.shields.io/github/stars/sitiom?affiliations=OWNER%2CCOLLABORATOR&label=GH%20stars)
 
-[![Snake Graph](https://raw.githubusercontent.com/sitiom/sitiom/assets/github-snake.svg)](https://github.com/sitiom)
+[![Breakout Graph](https://raw.githubusercontent.com/sitiom/sitiom/assets/github-breakout.svg)](https://github.com/sitiom)
 
 [![Metrics](https://raw.githubusercontent.com/sitiom/sitiom/assets/github-metrics.svg)](https://github.com/sitiom)
 
