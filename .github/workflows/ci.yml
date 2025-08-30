@@ -43,7 +43,7 @@ jobs:
       - uses: fregante/setup-git-user@v2
 
       - name: Generate SVG
-        uses: cyprieng/github-breakout@v1.0.0
+        uses: cyprieng/github-breakout@v1.1.0
         with:
           github_username: ${{ github.repository_owner }}
 
